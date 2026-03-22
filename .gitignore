@@ -45,3 +45,6 @@ next-env.d.ts
 
 # clerk configuration (can include secrets)
 /.clerk/
+
+# 3D model files (too large for git — served via ImageKit or local only)
+/public/uploads/models/*.glb
